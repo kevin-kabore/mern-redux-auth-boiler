@@ -4,7 +4,7 @@ Uses redux with react for authenticating and signing up users.
 
 
 Instructions:
-  Clone or download
+  - Clone or download. 
  ```
   cd boiler-client
   npm install --save
@@ -15,8 +15,8 @@ Instructions:
  ```
   SECRET_KEY=longRandomStringOfCharacters
  ```
-  Do not check in this file
-  FINALLY:
+ Do not check in this file
+ - From boiler-server run :
   ```
    npm start
   ```
