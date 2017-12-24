@@ -4,17 +4,22 @@ Uses redux with react for authenticating and signing up users.
 
 
 Instructions:
- - clone or download
- - from command line:
-  + cd boiler-client
-  + npm install --save
-  + cd ../boiler-server
-  + npm install --save
-  - Create .env file. In the file add:
-  + SECRET_KEY=longRandomStringOfCharacters
-  - Do not check in this file
+  Clone or download
+ ```
+  cd boiler-client
+  npm install --save
+  cd ../boiler-server
+  npm install --save
+ ```
+ Create .env file. In the file add:
+ ```
+  SECRET_KEY=longRandomStringOfCharacters
+ ```
+  Do not check in this file
   FINALLY:
-  + npm start
+  ```
+   npm start
+  ```
 
 ## Fontend Technologies:
 - react using create-react-app
